@@ -1,0 +1,522 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F5CCBA6F1C89B8B800973392 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5CCBA6E1C89B8B800973392 /* AppDelegate.swift */; };
+		F5CCBA711C89B8B800973392 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5CCBA701C89B8B800973392 /* ViewController.swift */; };
+		F5CCBA741C89B8B800973392 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5CCBA721C89B8B800973392 /* Main.storyboard */; };
+		F5CCBA771C89B8B800973392 /* glow2015.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F5CCBA751C89B8B800973392 /* glow2015.xcdatamodeld */; };
+		F5CCBA791C89B8B800973392 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F5CCBA781C89B8B800973392 /* Assets.xcassets */; };
+		F5CCBA7C1C89B8B800973392 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5CCBA7A1C89B8B800973392 /* LaunchScreen.storyboard */; };
+		F5CCBA871C89B8B800973392 /* glow2015Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5CCBA861C89B8B800973392 /* glow2015Tests.swift */; };
+		F5CCBA921C89B8B800973392 /* glow2015UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5CCBA911C89B8B800973392 /* glow2015UITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F5CCBA831C89B8B800973392 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F5CCBA631C89B8B800973392 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F5CCBA6A1C89B8B800973392;
+			remoteInfo = glow2015;
+		};
+		F5CCBA8E1C89B8B800973392 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F5CCBA631C89B8B800973392 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F5CCBA6A1C89B8B800973392;
+			remoteInfo = glow2015;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F5CCBA6B1C89B8B800973392 /* glow2015.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = glow2015.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5CCBA6E1C89B8B800973392 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F5CCBA701C89B8B800973392 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F5CCBA731C89B8B800973392 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F5CCBA761C89B8B800973392 /* glow2015.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = glow2015.xcdatamodel; sourceTree = "<group>"; };
+		F5CCBA781C89B8B800973392 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F5CCBA7B1C89B8B800973392 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F5CCBA7D1C89B8B800973392 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F5CCBA821C89B8B800973392 /* glow2015Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = glow2015Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5CCBA861C89B8B800973392 /* glow2015Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = glow2015Tests.swift; sourceTree = "<group>"; };
+		F5CCBA881C89B8B800973392 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F5CCBA8D1C89B8B800973392 /* glow2015UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = glow2015UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5CCBA911C89B8B800973392 /* glow2015UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = glow2015UITests.swift; sourceTree = "<group>"; };
+		F5CCBA931C89B8B800973392 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F5CCBA681C89B8B800973392 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5CCBA7F1C89B8B800973392 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5CCBA8A1C89B8B800973392 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F5CCBA621C89B8B800973392 = {
+			isa = PBXGroup;
+			children = (
+				F5CCBA6D1C89B8B800973392 /* glow2015 */,
+				F5CCBA851C89B8B800973392 /* glow2015Tests */,
+				F5CCBA901C89B8B800973392 /* glow2015UITests */,
+				F5CCBA6C1C89B8B800973392 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F5CCBA6C1C89B8B800973392 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F5CCBA6B1C89B8B800973392 /* glow2015.app */,
+				F5CCBA821C89B8B800973392 /* glow2015Tests.xctest */,
+				F5CCBA8D1C89B8B800973392 /* glow2015UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F5CCBA6D1C89B8B800973392 /* glow2015 */ = {
+			isa = PBXGroup;
+			children = (
+				F5CCBA6E1C89B8B800973392 /* AppDelegate.swift */,
+				F5CCBA701C89B8B800973392 /* ViewController.swift */,
+				F5CCBA721C89B8B800973392 /* Main.storyboard */,
+				F5CCBA781C89B8B800973392 /* Assets.xcassets */,
+				F5CCBA7A1C89B8B800973392 /* LaunchScreen.storyboard */,
+				F5CCBA7D1C89B8B800973392 /* Info.plist */,
+				F5CCBA751C89B8B800973392 /* glow2015.xcdatamodeld */,
+			);
+			path = glow2015;
+			sourceTree = "<group>";
+		};
+		F5CCBA851C89B8B800973392 /* glow2015Tests */ = {
+			isa = PBXGroup;
+			children = (
+				F5CCBA861C89B8B800973392 /* glow2015Tests.swift */,
+				F5CCBA881C89B8B800973392 /* Info.plist */,
+			);
+			path = glow2015Tests;
+			sourceTree = "<group>";
+		};
+		F5CCBA901C89B8B800973392 /* glow2015UITests */ = {
+			isa = PBXGroup;
+			children = (
+				F5CCBA911C89B8B800973392 /* glow2015UITests.swift */,
+				F5CCBA931C89B8B800973392 /* Info.plist */,
+			);
+			path = glow2015UITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F5CCBA6A1C89B8B800973392 /* glow2015 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F5CCBA961C89B8B800973392 /* Build configuration list for PBXNativeTarget "glow2015" */;
+			buildPhases = (
+				F5CCBA671C89B8B800973392 /* Sources */,
+				F5CCBA681C89B8B800973392 /* Frameworks */,
+				F5CCBA691C89B8B800973392 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = glow2015;
+			productName = glow2015;
+			productReference = F5CCBA6B1C89B8B800973392 /* glow2015.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F5CCBA811C89B8B800973392 /* glow2015Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F5CCBA991C89B8B800973392 /* Build configuration list for PBXNativeTarget "glow2015Tests" */;
+			buildPhases = (
+				F5CCBA7E1C89B8B800973392 /* Sources */,
+				F5CCBA7F1C89B8B800973392 /* Frameworks */,
+				F5CCBA801C89B8B800973392 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F5CCBA841C89B8B800973392 /* PBXTargetDependency */,
+			);
+			name = glow2015Tests;
+			productName = glow2015Tests;
+			productReference = F5CCBA821C89B8B800973392 /* glow2015Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F5CCBA8C1C89B8B800973392 /* glow2015UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F5CCBA9C1C89B8B800973392 /* Build configuration list for PBXNativeTarget "glow2015UITests" */;
+			buildPhases = (
+				F5CCBA891C89B8B800973392 /* Sources */,
+				F5CCBA8A1C89B8B800973392 /* Frameworks */,
+				F5CCBA8B1C89B8B800973392 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F5CCBA8F1C89B8B800973392 /* PBXTargetDependency */,
+			);
+			name = glow2015UITests;
+			productName = glow2015UITests;
+			productReference = F5CCBA8D1C89B8B800973392 /* glow2015UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F5CCBA631C89B8B800973392 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = Fhict;
+				TargetAttributes = {
+					F5CCBA6A1C89B8B800973392 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					F5CCBA811C89B8B800973392 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = F5CCBA6A1C89B8B800973392;
+					};
+					F5CCBA8C1C89B8B800973392 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = F5CCBA6A1C89B8B800973392;
+					};
+				};
+			};
+			buildConfigurationList = F5CCBA661C89B8B800973392 /* Build configuration list for PBXProject "glow2015" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F5CCBA621C89B8B800973392;
+			productRefGroup = F5CCBA6C1C89B8B800973392 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F5CCBA6A1C89B8B800973392 /* glow2015 */,
+				F5CCBA811C89B8B800973392 /* glow2015Tests */,
+				F5CCBA8C1C89B8B800973392 /* glow2015UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F5CCBA691C89B8B800973392 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5CCBA7C1C89B8B800973392 /* LaunchScreen.storyboard in Resources */,
+				F5CCBA791C89B8B800973392 /* Assets.xcassets in Resources */,
+				F5CCBA741C89B8B800973392 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5CCBA801C89B8B800973392 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5CCBA8B1C89B8B800973392 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F5CCBA671C89B8B800973392 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5CCBA711C89B8B800973392 /* ViewController.swift in Sources */,
+				F5CCBA771C89B8B800973392 /* glow2015.xcdatamodeld in Sources */,
+				F5CCBA6F1C89B8B800973392 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5CCBA7E1C89B8B800973392 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5CCBA871C89B8B800973392 /* glow2015Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5CCBA891C89B8B800973392 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5CCBA921C89B8B800973392 /* glow2015UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F5CCBA841C89B8B800973392 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F5CCBA6A1C89B8B800973392 /* glow2015 */;
+			targetProxy = F5CCBA831C89B8B800973392 /* PBXContainerItemProxy */;
+		};
+		F5CCBA8F1C89B8B800973392 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F5CCBA6A1C89B8B800973392 /* glow2015 */;
+			targetProxy = F5CCBA8E1C89B8B800973392 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F5CCBA721C89B8B800973392 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F5CCBA731C89B8B800973392 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F5CCBA7A1C89B8B800973392 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F5CCBA7B1C89B8B800973392 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F5CCBA941C89B8B800973392 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F5CCBA951C89B8B800973392 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F5CCBA971C89B8B800973392 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = glow2015/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Fontys.glow2015;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F5CCBA981C89B8B800973392 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = glow2015/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Fontys.glow2015;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F5CCBA9A1C89B8B800973392 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = glow2015Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Fontys.glow2015Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/glow2015.app/glow2015";
+			};
+			name = Debug;
+		};
+		F5CCBA9B1C89B8B800973392 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = glow2015Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Fontys.glow2015Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/glow2015.app/glow2015";
+			};
+			name = Release;
+		};
+		F5CCBA9D1C89B8B800973392 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = glow2015UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Fontys.glow2015UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = glow2015;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		F5CCBA9E1C89B8B800973392 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = glow2015UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Fontys.glow2015UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = glow2015;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F5CCBA661C89B8B800973392 /* Build configuration list for PBXProject "glow2015" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5CCBA941C89B8B800973392 /* Debug */,
+				F5CCBA951C89B8B800973392 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F5CCBA961C89B8B800973392 /* Build configuration list for PBXNativeTarget "glow2015" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5CCBA971C89B8B800973392 /* Debug */,
+				F5CCBA981C89B8B800973392 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F5CCBA991C89B8B800973392 /* Build configuration list for PBXNativeTarget "glow2015Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5CCBA9A1C89B8B800973392 /* Debug */,
+				F5CCBA9B1C89B8B800973392 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F5CCBA9C1C89B8B800973392 /* Build configuration list for PBXNativeTarget "glow2015UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5CCBA9D1C89B8B800973392 /* Debug */,
+				F5CCBA9E1C89B8B800973392 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		F5CCBA751C89B8B800973392 /* glow2015.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				F5CCBA761C89B8B800973392 /* glow2015.xcdatamodel */,
+			);
+			currentVersion = F5CCBA761C89B8B800973392 /* glow2015.xcdatamodel */;
+			path = glow2015.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = F5CCBA631C89B8B800973392 /* Project object */;
+}
