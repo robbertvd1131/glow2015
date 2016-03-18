@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F5A028AE1C92FADE00906487 /* newswiftfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5A028AD1C92FADE00906487 /* newswiftfile.swift */; };
+		F5A028B01C92FB4400906487 /* Generalviewcontroller.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5A028AF1C92FB4400906487 /* Generalviewcontroller.swift */; };
+		F5A028B21C93046C00906487 /* aboutviewcontrollerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5A028B11C93046C00906487 /* aboutviewcontrollerViewController.swift */; };
 		F5CCBA6F1C89B8B800973392 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5CCBA6E1C89B8B800973392 /* AppDelegate.swift */; };
 		F5CCBA711C89B8B800973392 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5CCBA701C89B8B800973392 /* ViewController.swift */; };
 		F5CCBA741C89B8B800973392 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5CCBA721C89B8B800973392 /* Main.storyboard */; };
@@ -36,6 +39,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F5A028AD1C92FADE00906487 /* newswiftfile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = newswiftfile.swift; sourceTree = "<group>"; };
+		F5A028AF1C92FB4400906487 /* Generalviewcontroller.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Generalviewcontroller.swift; sourceTree = "<group>"; };
+		F5A028B11C93046C00906487 /* aboutviewcontrollerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = aboutviewcontrollerViewController.swift; sourceTree = "<group>"; };
 		F5CCBA6B1C89B8B800973392 /* glow2015.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = glow2015.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F5CCBA6E1C89B8B800973392 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F5CCBA701C89B8B800973392 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -81,6 +87,8 @@
 		F5CCBA621C89B8B800973392 = {
 			isa = PBXGroup;
 			children = (
+				F5A028AF1C92FB4400906487 /* Generalviewcontroller.swift */,
+				F5A028AD1C92FADE00906487 /* newswiftfile.swift */,
 				F5CCBA6D1C89B8B800973392 /* glow2015 */,
 				F5CCBA851C89B8B800973392 /* glow2015Tests */,
 				F5CCBA901C89B8B800973392 /* glow2015UITests */,
@@ -105,6 +113,7 @@
 				F5CCBA6E1C89B8B800973392 /* AppDelegate.swift */,
 				F5CCBA701C89B8B800973392 /* ViewController.swift */,
 				F5CCBA721C89B8B800973392 /* Main.storyboard */,
+				F5A028B11C93046C00906487 /* aboutviewcontrollerViewController.swift */,
 				F5CCBA781C89B8B800973392 /* Assets.xcassets */,
 				F5CCBA7A1C89B8B800973392 /* LaunchScreen.storyboard */,
 				F5CCBA7D1C89B8B800973392 /* Info.plist */,
@@ -263,9 +272,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F5A028AE1C92FADE00906487 /* newswiftfile.swift in Sources */,
+				F5A028B21C93046C00906487 /* aboutviewcontrollerViewController.swift in Sources */,
 				F5CCBA711C89B8B800973392 /* ViewController.swift in Sources */,
 				F5CCBA771C89B8B800973392 /* glow2015.xcdatamodeld in Sources */,
 				F5CCBA6F1C89B8B800973392 /* AppDelegate.swift in Sources */,
+				F5A028B01C92FB4400906487 /* Generalviewcontroller.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -490,6 +502,7 @@
 				F5CCBA981C89B8B800973392 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F5CCBA991C89B8B800973392 /* Build configuration list for PBXNativeTarget "glow2015Tests" */ = {
 			isa = XCConfigurationList;
@@ -498,6 +511,7 @@
 				F5CCBA9B1C89B8B800973392 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F5CCBA9C1C89B8B800973392 /* Build configuration list for PBXNativeTarget "glow2015UITests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +520,7 @@
 				F5CCBA9E1C89B8B800973392 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

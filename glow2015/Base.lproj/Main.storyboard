@@ -8,7 +8,7 @@
         <!--About-->
         <scene sceneID="WSv-Ae-rhg">
             <objects>
-                <viewController id="jCA-g2-gW2" sceneMemberID="viewController">
+                <viewController id="jCA-g2-gW2" customClass="aboutviewcontrollerViewController" customModule="glow2015" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="PQ9-h2-nl3"/>
                         <viewControllerLayoutGuide type="bottom" id="nJZ-zC-gvY"/>
@@ -17,18 +17,11 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Hoi ik ben robbert" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dMO-oy-Zo9">
-                                <rect key="frame" x="25" y="58" width="138" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="01b-X0-byn">
-                                <rect key="frame" x="25" y="219" width="68" height="30"/>
-                                <state key="normal" title="Show text"/>
-                            </button>
+                            <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="Iv0-WM-bY8">
+                                <rect key="frame" x="25" y="219" width="68" height="50"/>
+                            </stackView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nKQ-YB-4R7">
-                                <rect key="frame" x="164" y="219" width="74" height="30"/>
+                                <rect key="frame" x="158" y="229" width="74" height="30"/>
                                 <state key="normal" title="Easter egg"/>
                                 <connections>
                                     <segue destination="1Jg-kE-9Zw" kind="show" id="0Wu-Ig-L44"/>
@@ -41,7 +34,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="MbP-ux-MFu" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="168" y="153"/>
+            <point key="canvasLocation" x="128" y="133"/>
         </scene>
         <!--General-->
         <scene sceneID="SrS-wy-r0r">
@@ -132,13 +125,24 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MDI-k6-d6B">
-                                <rect key="frame" x="277" y="324" width="46" height="30"/>
-                                <state key="normal" title="Button"/>
+                                <rect key="frame" x="266" y="324" width="68" height="30"/>
+                                <state key="normal" title="Show text"/>
+                                <connections>
+                                    <action selector="buttonShowTextfield:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Pgb-Rp-qsP"/>
+                                </connections>
                             </button>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="xqz-FV-t8f">
+                                <rect key="frame" x="153" y="183" width="97" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" title="More details" id="nXG-PA-AO7"/>
+                    <connections>
+                        <outlet property="textfieldtobeshown" destination="xqz-FV-t8f" id="xzl-mj-5zI"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
